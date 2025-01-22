@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>介绍 | 香飘飘烤鸭</title>
+<link rel="shortcut icon" href="https://xppky.github.io/favicon.ico?v=1737560583273">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://xppky.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="介绍 | 香飘飘烤鸭 - Atom Feed" href="https://xppky.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="在我们家，烤鸭是一道传承多年的招牌美味，每一口都承载着对传统工艺的坚守与热爱。我们选用优质肥鸭，肉质鲜嫩、皮脂丰厚，是烤制美味烤鸭的上佳之选。鸭子经过精心处理后，便进入关键的腌制环节。我们家的秘方是用多种大料腌制，八角、桂皮、香叶等香料与盐..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://xppky.github.io">
+  <img class="avatar" src="https://xppky.github.io/images/avatar.png?v=1737560583273" alt="">
+  </a>
+  <h1 class="site-title">
+    香飘飘烤鸭
+  </h1>
+  <p class="site-description">
+    山东省聊城市高唐县孙五里市场西香飘飘烤鸭
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              介绍
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-01-22
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>在我们家，烤鸭是一道传承多年的招牌美味，每一口都承载着对传统工艺的坚守与热爱。我们选用优质肥鸭，肉质鲜嫩、皮脂丰厚，是烤制美味烤鸭的上佳之选。鸭子经过精心处理后，便进入关键的腌制环节。我们家的秘方是用多种大料腌制，八角、桂皮、香叶等香料与盐、酱油、料酒等调料混合，调制成独特的腌料。这些香料在腌制过程中慢慢渗透鸭肉，赋予其浓郁的香气和丰富的层次感。</p>
+<p>腌制完成后，鸭子被挂入特制的烤炉中，中火慢烤。考出鸭肉鲜香，烤出的鸭皮金黄酥脆，鸭肉鲜嫩多汁。</p>
+<p>我们家的烤鸭，不仅是一道菜，更是一种家的味道。每一道工序都倾注了我们的心血，每一口都让人回味无穷。欢迎来到我们家，品尝这道用心制作的烤鸭，感受传统美食的魅力。</p>
+<p><strong>加店长微信：</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://xppky.github.io/post-images/1737560488436.jpg" alt="" loading="lazy"></figure>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  孙五里西
+  <a class="rss" href="https://xppky.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
